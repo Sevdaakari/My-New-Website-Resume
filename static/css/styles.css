@@ -1,0 +1,161 @@
+html,
+body {
+    
+    font-family: 'Goldman', cursive;
+    font-size: 1rem;
+    color: #FFF6E0;
+    height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("static\assets\images\Screenshot (1).png") no-repeat;
+      background-size: cover;
+    }
+}
+.contact-body {
+    font-family: 'Goldman', cursive;
+    font-size: 1rem;
+    color: #FFF6E0;
+}
+
+.header-body {
+    font-family: 'Goldman', cursive;
+    font-size: 1rem;
+    color: #FFF6E0;
+}
+
+.about-me-text {
+    color: #FFF6E0;
+    text-align: end;
+} 
+.contact-text {
+    color: #FFF6E0;
+    position: absolute;
+    top: 200%;
+    left: 40%;
+
+
+}  
+.astronaut-contact {
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 180px;
+    bottom: 280px;
+
+}
+
+.linkedin {
+    position: absolute;
+    top: 500%;
+    right: 53%;
+}
+.mail {
+    position: absolute;
+    right: 44%;
+    top: 450%;
+}
+
+.top-container {
+    text-align: center;
+    position: relative;
+    padding: 50px;
+}
+
+.topic {
+    position: absolute;
+    color: #FAF0E6;
+    left: 42%;
+    top: 45%;
+}
+
+.developer {
+    color: #FAF0E6;
+    position: absolute;
+    left: 46%;
+    top: 80%;
+}
+
+.middle-container {
+    padding: 50px;
+    position: relative;
+}
+
+.about-me {
+    position: absolute;
+    text-align: center;
+    left: 13%;
+    top: 150%;
+    padding: 20px;
+}
+
+.image_astronaut {
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    top: 370px;
+    left: 630px;
+    position: absolute;
+}
+
+.skills {
+    position: absolute;
+    text-align: right; 
+    top: 450%;
+    padding: 20px;
+}
+
+
+.education {
+    position: absolute;
+    text-align: left; 
+    top: 750%;
+    left: 50%;
+    padding: 20px;
+
+}
+
+.reading_astronaut {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 750px;
+    left: 280px;
+
+}
+
+#sticky-footer {
+    position: relative;
+    top: 150%;
+    text-align: center;
+    
+
+}
+
+.container {
+    width: auto;
+}

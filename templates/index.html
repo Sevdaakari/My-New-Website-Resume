@@ -1,0 +1,67 @@
+{% include "header.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevda Sultanova's CV</title>
+    <link href="/static/assets/css/fontawesome.css" rel="stylesheet">
+    <link href="/static/assets/css/brands.css" rel="stylesheet">
+    <link href="/static/assets/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href=
+"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href=
+"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link
+      rel="icon"
+      type="image/icon"
+      href="{{ url_for('static', filename='assets/favicon.ico') }}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Audiowide&family=Caveat:wght@400;600&family=Gajraj+One&family=Goldman&family=Homemade+Apple&family=Kanit&family=La+Belle+Aurore&family=Lato&family=Square+Peg&display=swap" rel="stylesheet">
+    <!-- <video id="background-video" autoplay loop muted poster="static\assets\images\Screenshot (1).png">
+        <source src="static\assets\images\1118666_4k_Mystery_Astronomy_3840x2160.mp4" type="video/mp4">
+        </video> -->
+    <link rel='stylesheet' media='screen and (min-width: 778px)' href='css800width.css' />  
+    <iframe src="https://giphy.com/embed/I7V6Te1Ka0U00" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nasa-space-galaxy-I7V6Te1Ka0U00">via GIPHY</a></p>  
+
+</head> 
+<body class="d-flex flex-column min-vh-100">
+    <div class="top-container">
+        <h2 class="topic">I'm Sevda</h2>
+        <p class="developer">a junior python developer</p>
+    </div>    
+
+    <div class="middle-container">
+        <div class="profile">
+            <p class="about-me">From the first day of learning Python, it was clear to me that this is what I really want to do.<br/>After 6 years of working as Procurement & Logistics specialist I have left this role to become a developer.
+            <br/>My enthusiasm for programming drives me to continuously learn and grow, and I am excited to explore new<br/>opportunities in a collaborative and dynamic team environment.</p>
+        </div>
+        <img class="image_astronaut" src="static\assets\images\astronaut.png" alt="astronaut-img">
+        <div class="skills">
+            <h2 class="skills-text">My Technical Skills</h2>
+            <div class="skill-row">
+                <p>Strong understanding of data types, functions, API</br>Python libraries/modules (Selenium, Pandas, BS, Tkinter)</br>FLASK, OOP, HTML & CSS, Golang,</br>Docker, PostgreSQL, Linux</p>
+            </div>
+        </div>
+        <div class="education">
+            <h2 class="education-text">Education</h2>
+            <div class="education-row">
+                <div style="font-size: 2rem;"></div>
+                    <div><i class="fa fa-angle-right"></i> May, 2023 - Present</div>
+                        <p>Udemy course: "Master the Coding Interview: Data Structures + Algorithms"</p> 
+                    <div><i class="fa fa-angle-right"></i> Nov, 2022 - June, 2023</div>
+                        <p>Udemy course: "100 Days of Code: The Complete Python Pro Bootcamp for 2023" by Angela Yu</p>
+                    <div><i class="fa fa-angle-right"></i> 2010 - 2016</div>
+                        <p>Ukhta State Technical University (Finances & Credit)</p>
+                </div>        
+            </div>
+            <img class="reading_astronaut" src="static\assets\images\reading_astronaut.png" alt="reading_astronaut">    
+        </div>
+    </div>  
+    
+</body>
+</html>
+{% include "footer.html" %}
